@@ -1,10 +1,4 @@
 
-cp cnn_serving/storage_helper.py img_res/storage_helper.py
-cp cnn_serving/storage_helper.py img_rot/storage_helper.py 
-cp cnn_serving/storage_helper.py ml_train/storage_helper.py 
-cp cnn_serving/storage_helper.py vid_proc/storage_helper.py 
-cp cnn_serving/storage_helper.py web_serve/storage_helper.py
-
 cd cnn_serving
 sudo docker build -t server-cnn-serving:1.1.0 .
 sudo docker tag server-cnn-serving:1.1.0 kind.local/server-cnn-serving:1.1.0

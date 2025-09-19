@@ -64,6 +64,13 @@ To run this repository, you'll need a cluster with a minimum of two nodes: one *
     -p '{"data":{"172.31.45.93.sslip.io":""}}' // ip master
     ```
 
+5.  **Build Application Image on Slave Nodes**
+    The application image needs to be built on each slave node. Execute the build.sh script to create the necessary image for the evaluation.
+
+    ```bash
+    ./build.sh
+    ```
+
 -----
 
 ## Usage
