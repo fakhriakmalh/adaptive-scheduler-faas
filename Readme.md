@@ -75,7 +75,7 @@ To run this repository, you'll need a cluster with a minimum of two nodes: one *
       * `AWS_SECRET_ACCESS_KEY`
       * `AWS_DEFAULT_REGION`
 
-2.  **Install Knative and Start Evaluation:**
+2.  **Install Knative and Start Evaluation at Master:**
     Once your cluster and remote storage are ready, execute the `start.sh` script to install Knative and begin the evaluation.
 
     ```bash
